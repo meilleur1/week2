@@ -88,19 +88,19 @@ span{
 @media(max-width:763px){
 	.chicken{
 		width:90%;
-		height:30%;
+		height:90%;
 
 	}
 
 .beef{
 	clear:left;
 	width:90%;
-	height:30%;
+	height:90%;
 }
 .sushi{
 	clear:left;
 	width:90%;
-	height:30%;
+	height:90%;
 }
 }
 
