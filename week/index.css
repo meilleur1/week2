@@ -59,10 +59,27 @@ span{
 	padding:0;
 }
 
+@media(max-width: 992px){
+   div	{
+   	width:30%;
+   	height:20%;
 
+	}
+}
 
+@media(max-width:991px)and (min-width:767px){
+	div{
+		width:50%;
+		height:40%;
+	}
+}
 
-
+@media(max-width:763px){
+	div{
+		width:60%;
+		height:40%;
+	}
+}
 
 
 
