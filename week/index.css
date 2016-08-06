@@ -85,7 +85,7 @@ span{
 }
 }
 
-@media(max-width:763px){
+@media(min-width:763px){
 	.chicken{
 		width:90%;
 		height:90%;
