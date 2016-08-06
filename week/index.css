@@ -1,0 +1,96 @@
+h1{
+	color:red;
+	text-align:center;
+}
+
+div{
+	float:left;
+	margin-right:10px;
+}
+
+
+
+*{
+	box-sizing:border-box;
+	margin:15px;
+	padding:7px;
+}
+
+
+.chicken{
+	border:4px solid green;
+	display:block;
+	background-color:black;
+	color:white;
+	width:30%;
+	margin-top:0;
+	padding:0;
+	height:20%;
+	
+}
+.beef{
+	border:4px solid blue;
+	display:block;
+	background-color:orange;
+	color:blue;
+	width:30%;
+	margin-top:0;
+	padding:0;
+	height:20%;
+	
+
+}
+.sushi{
+	border:4px solid yellow;
+	display:block;
+	background-color:black;
+	color:grey;
+	width:30%;
+	margin-top:0;
+	padding:0;
+	height:20%;
+}
+span{
+	display:block;
+	color:red;
+	background-color:white;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
