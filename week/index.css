@@ -68,20 +68,22 @@ span{
 
 @media(max-width:991px)and (min-width:767px){
 	.chicken{
-		width:90%;
+		width:40%;
 		height:30%;
+
 
 	}
 
 .beef{
-	clear:left;
-	width:90%;
+	
+	width:40%;
 	height:30%;
 }
-.sushi{
-	clear:left;
-	width:90%;
-	height:30%;
+	
+ .sushi{
+	
+	width:40%;
+  height:30%;
 }
 }
 
