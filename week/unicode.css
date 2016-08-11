@@ -1,0 +1,27 @@
+h1{
+	color:blue;
+	background-color:maroon;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+section{
+	color:black;
+	display: block;
+	background-color: grey;
+
+}
+
+*{
+	box-sizing:border-box;
+	margin:15px;
+	padding:15px;
+}
+
+body{
+	background-color:blue;
+}
+
+ul{
+	color:maroon;
+}

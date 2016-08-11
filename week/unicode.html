@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>unicode by ashi</title>
+<link rel="stylesheet" href="unicode.css">
+</head>
+
+
+<body>
+<header>
+<h1>unicode</h1>
+</header>
+<section>
+A multilingual text character encoding system, tentatively called Unicode.Unicode is intended to address the need for a workable, reliable world text encoding.
+Unicode is a worldwide character-encoding standard. The system uses Unicode exclusively for character and string manipulation. 
+Unicode simplifies software localization and improves multilingual text processing. By using Unicode to represent character and string data in your applications in  applications
+Unicode could be roughly described as "wide-body ASCII" that has been stretched to 16 bits to encompass the characters of all the world's living languages.
+Unicode can be implemented by different character encodings. The most commonly used encodings are UTF-8, UTF-16 and the now-obsolete UCS-2. UTF-8 uses one byte for any ASCII character, all of which have the same code values in both UTF-8 and ASCII encoding, and up to four bytes for other characters.
+using a single binary file for every possible character code. Unicode does the following:
+
+<ul>
+<li>Allows any combination of characters, drawn from any combination of scripts and languages, to co-exist in a single document.</li>
+<li>Defines semantics for each character.</li>
+<li>Standardizes script behavior.</li>
+<li>Provides a standard algorithm for bidirectional text.</li>
+<li>Defines cross-mappings to other standards.</li>
+<li>Defines multiple encodings of its single character set: UTF-7, UTF-8, UTF-16, and UTF-32. Conversion of data among these encodings is lossless.</li>
+</ul>
+
+<div>
+For compatibility with 8-bit and 7-bit environments, Unicode can also be encoded as UTF-8 and UTF-7, respectively. While Unicode-enabled functions in Windows use UTF-16, it is also possible to work with data encoded in UTF-8 or UTF-7, which are supported in Windows as multibyte character set code pages.
+New Windows applications should use UTF-16 as their internal data representation. Windows also provides extensive support for code pages, and mixed use in the same application is possible. Even new Unicode-based applications sometimes have to work with code pages. Reasons for this are discussed in Code Pages.
+Unicode is sometimes referred to as a 16-bit system, which would allow for only 65,536 characters, but this is not correct, and Unicode has the potential to cope with over one million unique characters.
+</div>
+<div>
+The current version (6.3.0) of the Unicode Standard, developed by the Unicode Consortium, assigns a unique identifier to each of 110,187 graphical, formatting and control characters, covering the scripts of the world’s principal written languages and many mathematical and other symbols
+
+Data converted directly from the encoding used by one code page to the encoding used by another is subject to corruption, because the same data value on different code pages can encode a different character. Even when your application is converting as close to the interface as possible, you should think carefully about the range of data to handle.
+Data converted from Unicode to a code page is subject to data loss, because a given code page might not be able to represent every character used in that particular Unicode data. Therefore, note that WideCharToMultiByte might lose some data if the target code page cannot represent all of the characters in the Unicode string.
+When modernizing code page-based legacy applications to use Unicode, you can use generic functions and the TEXT macro to maintain a single set of sources from which to compile two versions of your application. One version supports Unicode and the other one works with Windows code pages. Using this mechanism, you can convert even very large applications from Windows code pages to Unicode while maintaining application sources that can be compiled, built, and tested at all phases of the conversion.
+</div>
+<div>
+
+
+ American Standard Code for Information Interchange, is a character encoding standard 
+ ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters.
+ ASCII encodes 128 specified characters into seven-bit integers as shown by the ASCII chart on the right. The characters encoded are numbers 0 to 9, lowercase letters a to z, uppercase letters A to Z, basic punctuation symbols, control codes that originated with Teletype machines, and a space.
+ ASCII was incorporated into the Unicode character set as the first 128 symbols, so the 7-bit ASCII characters have the same numeric codes in both sets. This allows UTF-8 to be backward compatible with 7-bit ASCII, as a UTF-8 file containing only ASCII characters is identical to an ASCII file containing the same sequence of characters. Even more importantly, forward compatibility is ensured as software that recognizes only 7-bit ASCII characters as special and does not alter bytes with the highest bit set.
+ </div>
+ </section>
+</body>
+</html>
+
+
